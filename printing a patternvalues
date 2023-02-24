@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int i,n,ele,odd;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        if(i==1){
+           i=ele; 
+        }
+         if(ele%2!=0){
+            printf("%d\t",ele);
+        }
+        ele++;
+    }
+    return 0;
+}
