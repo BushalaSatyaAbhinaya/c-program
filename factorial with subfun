@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+   int num,factorial;
+   scanf("%d",&num);
+   factorial=factofnum(num);
+    printf("%d",factorial);
+    return 0;
+}
+int factofnum(int n)
+{
+  int k;
+  if((n==1)||(n==0))
+  return 1;
+  else
+  k=n*factofnum(n-1);
+ return k;  
+}
