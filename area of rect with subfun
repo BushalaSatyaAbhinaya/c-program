@@ -2,7 +2,7 @@
 int areaofrect(int , int );
 int main() {
    int area,length,breadth;
-   scanf("%d,%d",&length,&breadth);
+   scanf("%d %d",&length,&breadth);
    area=areaofrect(length,breadth);
     printf("%d",area);
     return 0;
