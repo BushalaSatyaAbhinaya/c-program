@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+   int area,length,breadth;
+   scanf("%d,%d",&length,&breadth);
+   area=areaofrect(length,breadth)
+    printf("%d",area);
+    return 0;
+}
+int areaofrect(int x,int y)
+{
+  int k;
+  k=x*y;
+ return k;  
+}
